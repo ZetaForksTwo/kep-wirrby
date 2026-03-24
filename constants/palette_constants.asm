@@ -77,4 +77,5 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_BRUNSWICK ; $29
 	const PAL_VOLCANO   ; $2A
 	const PAL_CASINO    ; $2B
+	const PAL_FNAF3MON  ; $2C
 DEF NUM_SGB_PALS EQU const_value
