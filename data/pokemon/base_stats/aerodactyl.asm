@@ -1,6 +1,6 @@
-	db DEX_AERODACTYL ; pokedex id
+	db DEX_AERODACTYL ; pokedex id - this is now archeops
 
-	db  80, 105,  65, 130,  60
+	db  75, 140,  65, 110, 112
 	;   hp  atk  def  spd  spc
 
 	db ROCK, FLYING ; type

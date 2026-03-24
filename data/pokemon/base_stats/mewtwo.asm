@@ -1,9 +1,9 @@
-	db DEX_MEWTWO ; pokedex id
+	db DEX_MEWTWO ; pokedex id - Regigigas
 
-	db 106, 110,  90, 130, 154
+	db 110, 160, 110, 100, 110
 	;   hp  atk  def  spd  spc
 
-	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
+	db NORMAL, NORMAL ; type
 	db 3 ; catch rate
 	db 220 ; base exp
 

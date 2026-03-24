@@ -1,6 +1,6 @@
-	db DEX_IVYSAUR ; pokedex id
+	db DEX_IVYSAUR ; pokedex id - Vigoroth
 
-	db  60,  62,  63,  60,  80
+	db  80,  80,  80,  90,  55
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type

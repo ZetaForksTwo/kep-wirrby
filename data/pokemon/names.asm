@@ -8,7 +8,7 @@ MonsterNames::
 	db "VOLTORB@@@"
 	db "NIDOKING@@"
 	db "SLOWBRO@@@"
-	db "IVYSAUR@@@"
+	db "VIGOROTH@@" ; IVYSAUR
 	db "EXEGGUTOR@"
 	db "LICKITUNG@"
 	db "EXEGGCUTE@"
@@ -69,7 +69,7 @@ MonsterNames::
 	db "CACTORMUS@"	; Cactus
 	db "SHARPOON@@"	; Jagg
 	db "BITTYBAT@@"
-	db "DODUO@@@@@"
+	db "SLUGMA@@@@" ; DODUO
 	db "POLIWAG@@@"
 	db "JYNX@@@@@@"
 	db "MOLTRES@@@"
@@ -115,7 +115,7 @@ MonsterNames::
 	db "KAKUNA@@@@"
 	db "BEEDRILL@@"
 	db "LUXWAN@@@@"	; Madaamu
-	db "DODRIO@@@@"
+	db "MAGCARGO@@" ; DODRIO
 	db "PRIMEAPE@@"
 	db "DUGTRIO@@@"
 	db "VENOMOTH@@"
@@ -130,7 +130,7 @@ MonsterNames::
 	db "GOLDUCK@@@"
 	db "HYPNO@@@@@"
 	db "GOLBAT@@@@"
-	db "MEWTWO@@@@"
+	db "REGIGIGAS@" ; MEWTWO
 	db "SNORLAX@@@"
 	db "MAGIKARP@@"
 	db "COINPUR@@@"	; Konya
@@ -152,8 +152,8 @@ MonsterNames::
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"
 	db "STARMIE@@@"
-	db "BULBASAUR@"
-	db "VENUSAUR@@"
+	db "SLAKOTH@@@" ; BULBASAUR
+	db "SLAKING@@@" ; VENUSAUR
 	db "TENTACRUEL"
 	db "ORFRY@@@@@"	; Gyopin
 	db "GOLDEEN@@@"
@@ -170,7 +170,7 @@ MonsterNames::
 	db "NIDORINA@@"
 	db "GEODUDE@@@"
 	db "PORYGON@@@"
-	db "AERODACTYL"
+	db "ARCHEOPS@@" ; AERODACTYL
 	db "BLASTYKE@@"
 	db "MAGNEMITE@"
 	db "SQUEAMATA@"	; Skimper

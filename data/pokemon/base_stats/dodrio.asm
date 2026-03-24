@@ -1,9 +1,9 @@
-	db DEX_DODRIO ; pokedex id
+	db DEX_DODRIO ; pokedex id - Magcargo
 
-	db  60, 110,  70, 100,  60
+	db  50, 50,   120, 30,  80
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING ; type
+	db FIRE, ROCK ; type
 	db 45 ; catch rate
 	db 158 ; base exp
 

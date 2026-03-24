@@ -1,9 +1,9 @@
-	db DEX_DODUO ; pokedex id
+	db DEX_DODUO ; pokedex id - Slugma
 
-	db  35,  85,  45,  75,  35
+	db  40,  40,  40,  20,  70
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING ; type
+	db FIRE, ROCK ; type
 	db 190 ; catch rate
 	db 96 ; base exp
 

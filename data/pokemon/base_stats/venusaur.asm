@@ -1,9 +1,9 @@
-	db DEX_VENUSAUR ; pokedex id
+	db DEX_VENUSAUR ; pokedex id - Slaking
 
-	db  80,  82,  83,  80, 100
+	db  150, 160, 100,  100, 95
 	;   hp  atk  def  spd  spc
 
-	db GRASS, POISON ; type
+	db NORMAL, NORMAL ; type
 	db 45 ; catch rate
 	db 208 ; base exp
 
