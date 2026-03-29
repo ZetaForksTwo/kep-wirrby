@@ -78,14 +78,14 @@ _SlowbroDexEntry:: ; new entry
 	next "into SLOWBRO"
 	dex
 
-_IvysaurDexEntry:: ; new entry
-	text "Can often be seen"
-	next "sunbathing. After"
-	next "absorbing enough"
+_IvysaurDexEntry:: ; Vigoroth
+	text "Its heart beats"
+	next "at 10 times its"
+	next "previous rate,"
 
-	page "nutrients and sun-"
-	next "light, its bud"
-	next "will blossom"
+	page "so it can't sit"
+	next "still for even"
+	next "a moment"
 	dex
 
 _ExeggutorDexEntry::
@@ -1249,24 +1249,24 @@ _StarmieDexEntry:: ; new entry
 	next "to be an alien"
 	dex
 
-_BulbasaurDexEntry:: ; new entry
-	text "Researchers have"
-	next "argued for 6 years"
-	next "about whether"
+_BulbasaurDexEntry:: ; Slakoth
+	text "Sleeps for around"
+	next "20 hours every"
+	next "day. Even just"
 	
-	page "BULBASAUR should"
-	next "be classed as a"
-	next "plant or animal"
+	page "looking at it"
+	next "can make a person"
+	next "feel drowsy"
 	dex
 
-_VenusaurDexEntry:: ; new entry
-	text "Its flower wafts"
-	next "a pacifying aroma."
-	next "Because it rests"
+_VenusaurDexEntry:: ; Slaking
+	text "It's the world's"
+	next "laziest #MON."
+	next "It only gets up"
 
-	page "in sunlit places,"
-	next "some think that it"
-	next "photosynthesizes"
+	page "and moves when it"
+	next "runs out of food"
+	next "it can reach"
 	dex
 
 _TentacruelDexEntry:: ; new entry
@@ -1379,14 +1379,14 @@ _PorygonDexEntry:: ; new entry
 	next "investigation"
 	dex
 
-_AerodactylDexEntry:: ; new entry
-	text "The progenitor of"
-	next "birds. It flew"
-	next "on broad wings,"
+_AerodactylDexEntry:: ; Archeops
+	text "Although it could"
+	next "fly, they seemed"
+	next "to be far more"
 
-	page "communicating by"
-	next "emitting high-"
-	next "pitched cries"
+	page "adept at running"
+	next "along the ground"
+	next "instead."
 	dex
 
 _MagnemiteDexEntry:: ; new entry altered from original

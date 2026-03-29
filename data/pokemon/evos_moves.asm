@@ -378,22 +378,16 @@ SlowbroEvosMoves:
 
 IvysaurEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 32, VENUSAUR
+	db EV_LEVEL, 36, VENUSAUR
 	db 0
 ; Learnset
-	db 8, VINE_WHIP
-	db 14, LEECH_SEED
-	db 21, POISONPOWDER
-	db 24, GROWTH
-	db 28, RAZOR_LEAF
-	db 31, TAKE_DOWN ; Prototype
-	db 34, BODY_SLAM
-	db 39, SLEEP_POWDER
-	db 43, MEGA_DRAIN ; Prototype 
-	db 48, PETAL_DANCE
-	db 52, DOUBLE_EDGE
-	db 57, TOXIC
-	db 62, SOLARBEAM
+	db 7, MIMIC
+	db 13, FURY_SWIPES
+	db 21, FEINT_ATTACK
+	db 28, AMNESIA
+	db 35, SLASH
+	db 42, COUNTER
+	db 49, SUBMISSION
 	db 0
 
 ExeggutorEvosMoves:
@@ -2178,41 +2172,29 @@ StarmieEvosMoves:
 
 BulbasaurEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, IVYSAUR
+	db EV_LEVEL, 18, IVYSAUR
 	db 0
 ; Learnset
-	db 8, VINE_WHIP
-	db 14, LEECH_SEED
-	db 19, POISONPOWDER
-	db 22, GROWTH
-	db 25, RAZOR_LEAF
-	db 28, TAKE_DOWN ; Prototype
-	db 32, BODY_SLAM
-	db 37, SLEEP_POWDER
-	db 41, MEGA_DRAIN ; Prototype 
-	db 44, PETAL_DANCE
-	db 48, DOUBLE_EDGE
-	db 52, TOXIC
-	db 58, SOLARBEAM
+	db 7, MIMIC
+	db 13, FURY_SWIPES
+	db 19, FEINT_ATTACK
+	db 25, AMNESIA
+	db 31, SLASH
+	db 37, COUNTER
+	db 43, BODY_SLAM
 	db 0
 
 VenusaurEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, VINE_WHIP
-	db 14, LEECH_SEED
-	db 21, POISONPOWDER
-	db 24, GROWTH
-	db 28, RAZOR_LEAF
-	db 31, TAKE_DOWN ; Prototype
-	db 36, BODY_SLAM
-	db 41, SLEEP_POWDER
-	db 45, MEGA_DRAIN ; Prototype 
-	db 53, PETAL_DANCE
-	db 56, DOUBLE_EDGE
-	db 62, TOXIC
-	db 66, SOLARBEAM
+	db 7, MIMIC
+	db 13, FURY_SWIPES
+	db 21, FEINT_ATTACK
+	db 28, AMNESIA
+	db 35, SLASH
+	db 46, COUNTER
+	db 54, BODY_SLAM
 	db 0
 
 TentacruelEvosMoves:
@@ -2436,11 +2418,11 @@ AerodactylEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, ROCK_THROW
-	db 33, SUPERSONIC
-	db 38, BITE
-	db 45, TAKE_DOWN
-	db 54, HYPER_BEAM
+	db 35, ROCK_THROW
+	db 40, DRILL_PECK
+	db 45, AGILITY
+	db 50, THRASH
+	db 55, SKY_ATTACK
 	db 0
 
 BlastykeEvosMoves:

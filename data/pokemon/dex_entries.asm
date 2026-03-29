@@ -262,23 +262,23 @@ PokedexEntryPointers:
 ; text entry
 
 BulbasaurDexEntry:
-	db "SEED@"
-	db 2,4
-	dw 150
+	db "SLACKER@"
+	db 2,7
+	dw 530
 	text_far _BulbasaurDexEntry
 	text_end
 
 IvysaurDexEntry:
-	db "SEED@"
-	db 3,3
-	dw 290
+	db "WILDMONKEY@"
+	db 4,7
+	dw 1020
 	text_far _IvysaurDexEntry
 	text_end
 
 VenusaurDexEntry:
-	db "SEED@"
+	db "LAZY@"
 	db 6,7
-	dw 2210
+	dw 2870
 	text_far _VenusaurDexEntry
 	text_end
 
@@ -1249,9 +1249,9 @@ KabutopsDexEntry:
 	text_end
 
 AerodactylDexEntry:
-	db "FOSSIL@"
-	db 5,11
-	dw 1300
+	db "FIRST BIRD@"
+	db 4,7
+	dw 700
 	text_far _AerodactylDexEntry
 	text_end
 
