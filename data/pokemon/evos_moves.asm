@@ -1941,11 +1941,12 @@ MewtwoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 63, BARRIER
-	db 66, PSYCHIC_M
-	db 70, RECOVER
-	db 75, MIST
-	db 81, AMNESIA
+	db 15, STOMP
+	db 30, CONFUSE_RAY
+	db 45, HEADBUTT
+	db 60, MEGA_PUNCH
+	db 75, IRON_HEAD
+	db 90, HYPER_BEAM
 	db 0
 
 SnorlaxEvosMoves:

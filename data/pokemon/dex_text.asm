@@ -1079,14 +1079,14 @@ _GolbatDexEntry:: ; new entry
 	next "in one bite"
 	dex
 
-_MewtwoDexEntry:: ; does not need a new entry
-	text "It was created by"
-	next "a scientist after"
-	next "years of horrific"
+_MewtwoDexEntry:: ; Regigigas
+	text "According to many"
+	next "legends, REGIGIGAS"
+	next "towed continents"
 
-	page "gene splicing and"
-	next "DNA engineering"
-	next "experiments"
+	page "with ropes, moving"
+	next "them to where they"
+	next "are today"
 	dex
 
 _SnorlaxDexEntry:: ; new entry

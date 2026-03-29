@@ -1305,9 +1305,9 @@ DragoniteDexEntry:
 	text_end
 
 MewtwoDexEntry:
-	db "GENETIC@"
-	db 6,7
-	dw 2690
+	db "COLOSSAL@"
+	db 12,2
+	dw 9250
 	text_far _MewtwoDexEntry
 	text_end
 
