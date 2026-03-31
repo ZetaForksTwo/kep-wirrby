@@ -38,14 +38,14 @@ _ClefairyDexEntry:: ; new entry, altered from the original.
 	next "with METRONOME"
 	dex
 
-_SpearowDexEntry:: ; new entry
-	text "More aggressive"
-	next "than PIDGEY. It"
-	next "busily flits about"
+_SpearowDexEntry:: ; Murkrow
+	text "Feared as an omen"
+	next "of misfortune, it"
+	next "often steals any"
 
-	page "in tall grass,"
-	next "searching for"
-	next "insects to eat"
+	page "shiny items that"
+	next "it finds, taking"
+	next "them to its nest"
 	dex
 
 _VoltorbDexEntry::
@@ -188,14 +188,14 @@ _LaprasDexEntry:: ; new entry
 	next "by poachers"
 	dex
 
-_ArcanineDexEntry:: ; new entry
-	text "Often depicted in"
-	next "Chinese folklore"
-	next "and legends, this"
+_ArcanineDexEntry:: ; Houndoom
+	text "The flames that it"
+	next "breathes contain"
+	next "toxins. The pain"
 
-	page "#MON is capable"
-	next "of outrunning"
-	next "a racing car"
+	page "caused by these"
+	next "flames is said to"
+	next "last forever"
 	dex
 
 _MewDexEntry:: ; does not have an entry in the book, so based it off FireRed's
@@ -298,14 +298,14 @@ _TangelaDexEntry:: ; new entry
 	next "resistance"
 	dex
 
-_GrowlitheDexEntry:: ; new entry
-	text "It's very friendly"
-	next "and faithful to"
-	next "people. CINNABAR's"
+_GrowlitheDexEntry:: ; Houndour
+	text "It typically hunts"
+	next "in a coordinated"
+	next "pack. It uses a"
 	
-	page "ecosystem may have"
-	next "influenced its"
-	next "development"
+	page "variety of howls"
+	next "to communicate"
+	next "with others"
 	dex
 
 _OnixDexEntry:: ; new entry
@@ -318,14 +318,14 @@ _OnixDexEntry:: ; new entry
 	next "earth at 50mph"
 	dex
 
-_FearowDexEntry:: ; new entry
-	text "It soars in the"
-	next "sky all day long."
-	next "Its long, powerful"
+_FearowDexEntry:: ; Honchkrow
+	text "Although it often"
+	next "lets its MURKROW"
+	next "followers fight"
 
-	page "beak allows it to"
-	next "swallow prey like"
-	next "RATTATA whole"
+	page "for it, it will"
+	next "often deal the"
+	next "finishing blow"
 	dex
 
 _PidgeyDexEntry:: ; new entry
@@ -518,14 +518,14 @@ _MankeyDexEntry:: ; new entry
 	next "in its diet"
 	dex
 
-_SeelDexEntry::
-	text "Lives in cold sea"
-	next "caves. Its thick"
-	next "hide allows it to"
+_SeelDexEntry:: ; Sneasel
+	text "It uses its hooked"
+	next "claws to scale"
+	next "tall trees, in"
 
-	page "stay active in"
-	next "temperatures of"
-	next "-40 degrees F"
+	page "order to steal and"
+	next "feed on the eggs"
+	next "of bird #MON"
 	dex
 
 _DiglettDexEntry:: ; new entry
@@ -558,14 +558,14 @@ _FarfetchdDexEntry:: ; new entry
 	next "and leek"
 	dex
 
-_VenonatDexEntry:: ; new entry
-	text "Its eyes serve as"
-	next "radars, emitting"
-	next "bright beams of"
+_VenonatDexEntry:: ; Wimpod
+	text "Even more skittish"
+	next "than SQUEAMATA!"
+	next "Since it will eat"
 	
-	page "light. This lets"
-	next "VENONAT remain"
-	next "active at night"	
+	page "almost anything,"
+	next "its nest is always"
+	next "perfectly clean"	
 	dex
 
 _DragoniteDexEntry:: ; new entry
@@ -578,14 +578,14 @@ _DragoniteDexEntry:: ; new entry
 	next "to its strength"
 	dex
 
-_DoduoDexEntry:: ; new entry
-	text "A sudden mutation"
-	next "first discovered"
-	next "3 years ago. Its"
+_DoduoDexEntry:: ; Slugma balls
+	text "Its body is made"
+	next "entirely of magma."
+	next "It always stays"
 
-	page "tiny wings make"
-	next "flying difficult,"
-	next "so prefers to run"
+	page "awake to prevent"
+	next "its body from"
+	next "cooling down"
 	dex
 
 _PoliwagDexEntry:: ; new entry
@@ -959,14 +959,14 @@ _BeedrillDexEntry:: ; new entry
 	next "venomous stingers"
 	dex
 
-_DodrioDexEntry:: ; new entry
-	text "Historians claim"
-	next "that an ancient"
-	next "religion in"
+_DodrioDexEntry:: ; Magcargo
+	text "With a temperature"
+	next "of around 18,000"
+	next "degrees F, any"
 
-	page "Central America"
-	next "revered DODRIO as"
-	next "their symbol"
+	page "water around it"
+	next "immediately gets"
+	next "vaporized"
 	dex
 
 _PrimeapeDexEntry:: ; this entry is just like the pokedex, so no new one
@@ -989,24 +989,24 @@ _DugtrioDexEntry:: ; new entry, modified from the original
 	next "its opponent"
 	dex
 
-_VenomothDexEntry:: ; new entry
-	text "It scatters highly"
-	next "toxic dust around"
-	next "as it flies, due"
+_VenomothDexEntry:: ; Golisopod
+	text "It lives in sunken"
+	next "ships or holes in"
+	next "the seabed. Using"
 
-	page "to the powdery"
-	next "scales that cover"
-	next "its wings"
+	page "its six arms, it"
+	next "battles and preys"
+	next "on PENDRAKEN"
 	dex
 
-_DewgongDexEntry:: ; new entry
-	text "Its blubber can"
-	next "be up to 12 inches"
-	next "thick. Unusually,"
+_DewgongDexEntry:: ; Weavile
+	text "A WEAVILE nest is"
+	next "often marked by"
+	next "a myriad of claw"
 
-	page "they are more"
-	next "active at lower"
-	next "temperatures"
+	page "marks carved into"
+	next "nearby trees and"
+	next "boulders"
 	dex
 
 _CaterpieDexEntry:: ; new page

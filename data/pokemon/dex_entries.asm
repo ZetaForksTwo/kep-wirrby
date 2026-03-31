@@ -402,16 +402,16 @@ RaticateDexEntry:
 	text_end
 
 SpearowDexEntry:
-	db "TINY BIRD@"
-	db 1,0
-	dw 40
+	db "DARKNESS@"
+	db 1,8
+	dw 50
 	text_far _SpearowDexEntry
 	text_end
 
 FearowDexEntry:
-	db "BEAK@"
-	db 3,11
-	dw 840
+	db "BIG BOSS@"
+	db 2,11
+	dw 600
 	text_far _FearowDexEntry
 	text_end
 
@@ -591,16 +591,16 @@ ParasectDexEntry:
 	text_end
 
 VenonatDexEntry:
-	db "INSECT@"
-	db 3,3
-	dw 660
+	db "TURN TAIL@"
+	db 1,8
+	dw 260
 	text_far _VenonatDexEntry
 	text_end
 
 VenomothDexEntry:
-	db "POISONMOTH@"
-	db 4,11
-	dw 280
+	db "HARD SCALE@"
+	db 6,7
+	dw 2380
 	text_far _VenomothDexEntry
 	text_end
 
@@ -661,16 +661,16 @@ PrimeapeDexEntry:
 	text_end
 
 GrowlitheDexEntry:
-	db "PUPPY@"
-	db 2,4
-	dw 420
+	db "DARK@"
+	db 2,0
+	dw 230
 	text_far _GrowlitheDexEntry
 	text_end
 
 ArcanineDexEntry:
-	db "LEGENDARY@"
-	db 6,3
-	dw 3420
+	db "DARK@"
+	db 4,7
+	dw 770
 	text_far _ArcanineDexEntry
 	text_end
 
@@ -843,30 +843,30 @@ FarfetchdDexEntry:
 	text_end
 
 DoduoDexEntry:
-	db "TWIN BIRD@"
-	db 4,7
-	dw 860
+	db "LAVA@"
+	db 2,4
+	dw 770
 	text_far _DoduoDexEntry
 	text_end
 
 DodrioDexEntry:
-	db "TRIPLEBIRD@"
-	db 5,11
-	dw 1880
+	db "LAVA@"
+	db 2,7
+	dw 1210
 	text_far _DodrioDexEntry
 	text_end
 
 SeelDexEntry:
-	db "SEA LION@"
-	db 3,7
-	dw 1980
+	db "SHARP CLAW@"
+	db 2,11
+	dw 620
 	text_far _SeelDexEntry
 	text_end
 
 DewgongDexEntry:
-	db "SEA LION@"
-	db 5,7
-	dw 2650
+	db "SHARP CLAW@"
+	db 3,7
+	dw 750
 	text_far _DewgongDexEntry
 	text_end
 

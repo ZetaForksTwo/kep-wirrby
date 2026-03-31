@@ -4,7 +4,7 @@ MonsterNames::
 	db "KANGASKHAN"
 	db "NIDORAN♂@@"
 	db "CLEFAIRY@@"
-	db "SPEAROW@@@"
+	db "MURKROW@@@" ; SPEAROW
 	db "VOLTORB@@@"
 	db "NIDOKING@@"
 	db "SLOWBRO@@@"
@@ -19,7 +19,7 @@ MonsterNames::
 	db "CUBONE@@@@"
 	db "RHYHORN@@@"
 	db "LAPRAS@@@@"
-	db "ARCANINE@@"
+	db "HOUNDOOM@@" ; ARCANINE
 	db "MEW@@@@@@@"
 	db "GYARADOS@@"
 	db "SHELLDER@@"
@@ -32,9 +32,9 @@ MonsterNames::
 	db "TANGELA@@@"
 	db "GAWARHED@@"	; Gyaoon
 	db "NIDOREIGN@"
-	db "GROWLITHE@"
+	db "HOUNDOUR@@" ; GROWLITHE
 	db "ONIX@@@@@@"
-	db "FEAROW@@@@"
+	db "HONCHKROW@" ; FEAROW
 	db "PIDGEY@@@@"
 	db "SLOWPOKE@@"
 	db "KADABRA@@@"
@@ -57,14 +57,14 @@ MonsterNames::
 	db "KOFFING@@@"
 	db "RAMOOSE@@@"	; Deer
 	db "MANKEY@@@@"
-	db "SEEL@@@@@@"
+	db "SNEASEL@@@" ; SEEL
 	db "DIGLETT@@@"
 	db "TAUROS@@@@"
 	db "TRAMPEL@@@"
 	db "GAVILLAIN@"	; Crocky
 	db "BLOTTLE@@@"
 	db "FARFETCH'D"
-	db "VENONAT@@@"
+	db "WIMPOD@@@@" ; VENONAT
 	db "DRAGONITE@"
 	db "CACTORMUS@"	; Cactus
 	db "SHARPOON@@"	; Jagg
@@ -118,8 +118,8 @@ MonsterNames::
 	db "MAGCARGO@@" ; DODRIO
 	db "PRIMEAPE@@"
 	db "DUGTRIO@@@"
-	db "VENOMOTH@@"
-	db "DEWGONG@@@"
+	db "GOLISOPOD@" ; VENOMOTH
+	db "WEAVILE@@@" ; DEWGONG
 	db "TRICULES@@"	; Purakkusu
 	db "PENDRAKEN@"
 	db "CATERPIE@@"

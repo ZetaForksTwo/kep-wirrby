@@ -1,17 +1,17 @@
 	db DEX_FEAROW ; pokedex id
 
-	db  65,  90,  65, 100,  61
+	db 100, 125,  52,  71, 105
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING ; type
-	db 90 ; catch rate
-	db 162 ; base exp
+	db DARK, FLYING ; type
+	db 30 ; catch rate
+	db 187 ; base exp
 
 	INCBIN "gfx/pokemon/front/fearow.pic", 0, 1 ; sprite dimensions
 	dw FearowPicFront, FearowPicBack
 
 	db PECK, GROWL, LEER, RAGE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \

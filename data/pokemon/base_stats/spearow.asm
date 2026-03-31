@@ -1,17 +1,17 @@
 	db DEX_SPEAROW ; pokedex id
 
-	db  40,  60,  30,  70,  31
+	db  60,  85,  42,  91,  85
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING ; type
-	db 255 ; catch rate
-	db 58 ; base exp
+	db DARK, FLYING ; type
+	db 30 ; catch rate (good luck catching it early!)
+	db 107 ; base exp
 
 	INCBIN "gfx/pokemon/front/spearow.pic", 0, 1 ; sprite dimensions
 	dw SpearowPicFront, SpearowPicBack
 
 	db PECK, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
