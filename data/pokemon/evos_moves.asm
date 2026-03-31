@@ -324,17 +324,16 @@ ClefairyEvosMoves:
 
 SpearowEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 20, FEAROW
+	db EV_ITEM, MOON_STONE, 1, FEAROW
 	db 0
 ; Learnset
-	db 5, RAGE ; Prototype - it's balanced cus spearow has the defence of a wet napkin
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 22, MIRROR_MOVE
-	db 29, DRILL_PECK
-	db 36, AGILITY
-	db 43, TAKE_DOWN ; Prototype
-	db 50, WHIRLWIND ; Prototype, comedy
+	db 6, LEER
+	db 10, WING_ATTACK
+	db 15, FEINT_ATTACK
+	db 21, HAZE
+	db 28, NIGHT_SHADE
+	db 36, NIGHT_SLASH
+	db 45, NASTY_PLOT
 	db 0
 
 VoltorbEvosMoves:
@@ -518,6 +517,12 @@ ArcanineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 7, ROAR
+	db 13, SMOG
+	db 20, BITE
+	db 30, FEINT_ATTACK
+	db 41, FLAMETHROWER
+	db 52, FALSE_SURRENDER
 	db 0
 
 MewEvosMoves:
@@ -674,16 +679,15 @@ NidoreignEvosMoves:
 
 GrowlitheEvosMoves:
 ; Evolutions
-	db EV_ITEM, FIRE_STONE, 1, ARCANINE
+	db EV_LEVEL, 24, ARCANINE
 	db 0
 ; Learnset
-	db 10, RAGE
-	db 18, EMBER
-	db 23, LEER
-	db 30, TAKE_DOWN
-	db 39, AGILITY
-	db 44, DOUBLE_EDGE ; Prototype
-	db 50, FLAMETHROWER
+	db  7, ROAR
+	db 13, SMOG
+	db 20, BITE
+	db 27, FEINT_ATTACK
+	db 35, FLAMETHROWER
+	db 43, FALSE_SURRENDER
 	db 0
 
 OnixEvosMoves:
@@ -704,14 +708,6 @@ FearowEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, RAGE
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 25, MIRROR_MOVE
-	db 34, DRILL_PECK
-	db 43, AGILITY
-	db 50, TAKE_DOWN ; Prototype
-	db 56, WHIRLWIND ; Prototype, comedy
 	db 0
 
 PidgeyEvosMoves:
@@ -1009,16 +1005,16 @@ MankeyEvosMoves:
 
 SeelEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 34, DEWGONG
+	db EV_ITEM, ICE_STONE, 1, DEWGONG
 	db 0
 ; Learnset
-	db 10, WATER_GUN
-	db 15, POWDER_SNOW
-	db 20, GROWL
-	db 25, AURORA_BEAM
-	db 30, REST
-	db 35, TAKE_DOWN
-	db 40, ICE_BEAM
+	db 9, QUICK_ATTACK
+	db 17, SCREECH
+	db 25, FEINT_ATTACK
+	db 33, FURY_SWIPES
+	db 41, AGILITY
+	db 49, SLASH
+	db 57, NIGHT_SLASH
 	db 0
 
 DiglettEvosMoves:
@@ -1100,17 +1096,9 @@ FarfetchdEvosMoves:
 
 VenonatEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 31, VENOMOTH
+	db EV_LEVEL, 30, VENOMOTH
 	db 0
 ; Learnset
-	db 11, SUPERSONIC
-	db 19, CONFUSION
-	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
-	db 30, STUN_SPORE
-	db 35, PSYBEAM
-	db 38, SLEEP_POWDER
-	db 43, PSYCHIC_M
 	db 0
 
 DragoniteEvosMoves:
@@ -1168,15 +1156,16 @@ BittybatEvosMoves:
 
 DoduoEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 31, DODRIO
+	db EV_LEVEL, 38, DODRIO
 	db 0
 ; Learnset
-	db 11, FURY_ATTACK
-	db 20, QUICK_ATTACK
-	db 24, RAGE
-	db 28, DRILL_PECK
-	db 33, TRI_ATTACK
-	db 38, AGILITY
+	db 8, SMOG
+	db 15, ROCK_THROW
+	db 22, HARDEN
+	db 29, AMNESIA
+	db 36, FLAMETHROWER
+	db 43, ROCK_SLIDE
+	db 50, BODY_SLAM
 	db 0
 
 PoliwagEvosMoves:
@@ -1737,12 +1726,13 @@ DodrioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 11, FURY_ATTACK
-	db 20, QUICK_ATTACK
-	db 24, RAGE
-	db 28, DRILL_PECK
-	db 36, TRI_ATTACK
-	db 42, AGILITY
+	db 8, SMOG
+	db 15, ROCK_THROW
+	db 22, HARDEN
+	db 29, AMNESIA
+	db 36, FLAMETHROWER
+	db 48, ROCK_SLIDE
+	db 60, BODY_SLAM
 	db 0
 
 PrimeapeEvosMoves:
@@ -1777,25 +1767,24 @@ VenomothEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
-	db 30, STUN_SPORE
-	db 38, PSYBEAM
-	db 43, SLEEP_POWDER
-	db 50, PSYCHIC_M
+	db 30, SLASH
+	db 35, SWORDS_DANCE
+	db 40, PIN_MISSILE
+	db 45, IRON_DEFENSE
+	db 50, WATERFALL
 	db 0
 
 DewgongEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	DB 10, WATER_GUN
-	db 15, POWDER_SNOW
-	db 20, GROWL
-	db 25, AURORA_BEAM
-	db 30, REST
-	db 39, TAKE_DOWN
-	db 45, ICE_BEAM
+	db 9, QUICK_ATTACK
+	db 17, SCREECH
+	db 25, FEINT_ATTACK
+	db 33, FURY_SWIPES
+	db 41, AGILITY
+	db 49, SLASH
+	db 57, NIGHT_SLASH
 	db 0
 
 TriculesEvosMoves:

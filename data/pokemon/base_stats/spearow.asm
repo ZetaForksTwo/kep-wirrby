@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/spearow.pic", 0, 1 ; sprite dimensions
 	dw SpearowPicFront, SpearowPicBack
 
-	db PECK, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db PECK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/fearow.pic", 0, 1 ; sprite dimensions
 	dw FearowPicFront, FearowPicBack
 
-	db PECK, GROWL, LEER, RAGE ; level 1 learnset
+	db PECK, LEER, WING_ATTACK, FEINT_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
