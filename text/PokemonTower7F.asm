@@ -36,9 +36,8 @@ _TowerRescueFujiText::
 	line "the soul of"
 	cont "CUBONE's mother."
 
-	para "I think MAROWAK's"
-	line "spirit has gone"
-	cont "to the afterlife."
+	para "But what on earth"
+	line "was that?"
 
 	para "I must thank you"
 	line "for your kind"

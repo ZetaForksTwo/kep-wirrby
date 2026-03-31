@@ -20,8 +20,11 @@ _PokemonTower1Text3::
 	done
 
 _PokemonTower1Text4::
-	text "My GROWLITHE..."
+	text "My HOUNDOUR..."
 	line "Why did you die?"
+	
+	para "Hell doesn't seem"
+	line "so bad now."
 	done
 
 _PokemonTower1Text5::

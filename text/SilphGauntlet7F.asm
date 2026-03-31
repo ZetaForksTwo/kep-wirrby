@@ -22,14 +22,15 @@ _ChiefMonologueMasterBallNotUsed::
 	line "BALL... I should"
 	cont "never have given"
 	cont "it to you! With"
-	cont "MEWTWO loose and"
-	cont "GIOVANNI gone,"
+	cont "REGIGIGAS in RBY"
+	cont "and GIOVANNI out"
+	cont "on vacation,"
 	cont "our company is"
 	cont "going under!"
 
 	para "Now there's only"
 	line "one way to catch" 
-	cont "MEWTWO, and it's"
+	cont "it, and it's"
 	cont "in your hands!" 
 	
 	para "<PLAYER>!"
@@ -47,8 +48,9 @@ _ChiefMonologueMasterBallUsed::
 	line "BALL... I should"
 	cont "never have given"
 	cont "it to you! With"
-	cont "MEWTWO loose and"
-	cont "GIOVANNI gone,"
+	cont "REGIGIGAS in RBY"
+	cont "and GIOVANNI out"
+	cont "on vacation,"
 	cont "our company is"
 	cont "going under!"
 
@@ -127,9 +129,8 @@ _ChiefAfterBattleText::
 	
 	para "Otherwise..."
 	
-	para "MEWTWO's hatred"
-	line "will crush this"
-	cont "world."
+	para "REGIGIGAS will de-"
+	line "stroy all balance."
 	
 	done
 	

@@ -592,8 +592,8 @@ _Route15UpstairsBinocularsText::
 
 _AerodactylFossilText::
 	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	line "A #MON from ano-"
+	cont "ther world."
 	done
 
 _KabutopsFossilText::

@@ -29,9 +29,13 @@ _Mansion3AfterBattleText2::
 	done
 
 _Mansion3Text5::
-	text "Diary: Feb. 6"
-	line "MEW gave birth."
+	text "Diary: Apr. 1st"
+	line "MEW got super"
+	cont "pregnant."
 
-	para "We named the"
-	line "newborn MEWTWO."
+	para "It gave birth"
+	line "to the king."
+	
+	para "Its name was"
+	line "REGIGIGAS."
 	done

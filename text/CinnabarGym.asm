@@ -190,9 +190,9 @@ _CinnabarGymAfterBattleText7::
 	line "but fire easily"
 	cont "melts ice!"
 
-	para "WATER- and ICE-"
+	para "DARK- and ICE-"
 	line "type #MON like"
-	cont "DEWGONG can be"
+	cont "WEAVILE can be"
 	cont "tricky..."
 	done
 

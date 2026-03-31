@@ -66,7 +66,7 @@ _MelanieText1::
 	line "injured #MON."
 
 	para "I nursed this"
-	line "BULBASAUR back to"
+	line "SLAKOTH back to"
 	cont "health!"
 	done
 
@@ -79,17 +79,35 @@ _MelanieText2::
 
 	para "I know! Would you"
 	line "take care of this"
-	cont "BULBASAUR?"
+	cont "SLAKOTH?"
 	done
 
 _MelanieText3::
 	text "Please take care"
-	line "of BULBASAUR!"
+	line "of SLAKOTH!"
+	
+	para "...hey, what's"
+	line "with the strange"
+	cont "face?"
+	
+	para "Are you not"
+	line "grateful?"
 	done
 
 _MelanieText4::
-	text "Is BULBASAUR"
+	text "Is SLAKOTH"
 	line "doing well?"
+	
+	para "It seems more"
+	line "energised than"
+	cont "the ones in..."
+	
+	para "Hm. It's on the"
+	line "tip of my tongue."
+	
+	para "It's like a force"
+	line "is stopping me"
+	cont "from saying it."
 	done
 
 _MelanieText5::

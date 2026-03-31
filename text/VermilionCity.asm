@@ -125,7 +125,7 @@ _VermilionCityText13::
 
 _BeautyText1::
 	text "Hey! Do you like"
-	line "cats or dogs?"
+	line "cats or hounds?"
 	prompt
 
 _BeautyText2::
@@ -148,7 +148,7 @@ _BeautyChoice:: ; this is separate for the in-progress event.
 
 _BeautyFinish1:: ; I hate this, but it has to be this way. wBeautyChoice refuses to work.
 	text "Oh! You've caught"
-	line "5 GROWLITHE!"
+	line "5 HOUNDOUR!"
 	done
 
 _BeautyFinish2::
@@ -163,7 +163,7 @@ _BeautyExplain1::
 	prompt
 
 _BeautyExplain2::
-	text "When GROWLITHE"
+	text "When HOUNDOUR"
 	line "evolves, it will"
 	cont "look like this."
 	prompt

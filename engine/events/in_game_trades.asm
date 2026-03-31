@@ -482,17 +482,17 @@ AfterTrade8Text:
 BillWannaTradeText:
 	text "BILL: Say, bud,"
 	line "do you happen"
-	cont "to have an"
-	cont "ARCANINE?"
+	cont "to have a"
+	cont "HOUNDOOM?"
 	
 	para "I caught this"
-	line "special one in"
+	line "weird thing in"
 	cont "my experiments,"
 	cont "but it's not"
 	cont "tame at all."
 	
 	para "If you trade"
-	line "me yours, you"
+	line "for it, you"
 	cont "can have it!"
 	done
 	text_end
@@ -506,7 +506,7 @@ BillNoTradeText:
 
 BillWrongMonText:
 	text "That's no"
-	line "ARCANINE, bud!"
+	line "HOUNDOOM, bud!"
 	cont "You trying to"
 	cont "con me?"
 	done
@@ -520,11 +520,11 @@ BillThanksText:
 BillAfterTradeText:
 	text "I've been working"
 	line "on a machine to"
-	cont "connect with the"
-	cont "past."
+	cont "connect with a"
+	cont "strange world."
 	
 	para "That's how I got"
-	line "that ARCANINE!"
+	line "ARCANINE!"
 	
 	para "Take care of it,"
 	line "would ya?"

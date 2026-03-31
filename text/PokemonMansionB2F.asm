@@ -1,54 +1,40 @@
 _B2FBook1::
-	text "Diary: Feb 20"
-	line "The clone project"
+	text "Diary: Apr. 31st"
+	line "The manipulation"
 	cont "was a success."
 	
-	para "We are getting"
-	line "high energy"
-	cont "readings from"
-	cont "MEWTWO's psychic"
-	cont "power!"
+	para "REGIGIGAS is in"
+	line "RBY!"
 	
 	para "But..."
 	
-	para "What are they"
-	line "talking about?"
+	para "What is this"
+	line "feeling?"
 	
 	done
 
 _B2FBook2::
-	text "Diary: Apr 24"
-	line "All clones have"
-	cont "perished."
+	text "Diary: Jun. 7th"
+	line "It had no meaning."
 	
-	para "MEWTWO remains."
-	line "However..."
+	para "Other #MON have"
+	line "appeared."
 	
-	para "It has seemed to"
-	line "react to the"
-	cont "situation."
+	para "HOUNDOOM. WEAVILE."
+	line "ARCHEOPS. SLAKING."
 	
-	para "Tranquilizers were"
-	line "administered."
+	para "It is all we ever"
+	line "wanted."
 	
-	para "We should never"
-	line "have gone to"
-	cont "Guyana. I must"
-	cont "hide that map..."
-	
-	para "Somewhere no one"
-	line "will ever look."
-	cont "With any luck,"
-	cont "it'll end up at"
-	cont "the bottom of"
-	cont "the sea..."
+	para "But does it make"
+	line "sense?"
 	
 	done
 
 _B2FPicture::
 	text "It's a charred"
 	line "picture of a"
-	cont "happy family."
+	cont "happy community."
 	
 	done
 
@@ -74,6 +60,12 @@ _B2FMissingNo::
 
 	para "It's best to"
 	line "leave it alone."
+	
+	para "We don't want"
+	line "#GODs to appear."
+	
+	para "Maybe another"
+	line "time."
 
 	done
 
@@ -97,5 +89,7 @@ _MewtwoPod::
 	
 	para "What could have"
 	line "done this?"
+	
+	para "Was it the king?"
 	
 	done

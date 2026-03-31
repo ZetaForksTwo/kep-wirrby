@@ -1,12 +1,57 @@
-_CaveGuy:: ; Used to describe GZap, but the beauty seemed funnier. Needed some lore for Garnet Cavern, if any.
-	text "I've gone through"
-	line "many caves in my"
-	cont "day, but this one"
-	cont "is taking the"
-	cont "mickey!"
+_CaveGuy:: ; A fun message.
+	text "This world is"
+	line "rather strange."
 	
-	para "Those #MON are"
-	line "way too strong!"
+	para "HOUNDOOM?"
+	line "HONCHKROW?"
+	
+	para "Do they fit?"
+	
+	para "They seem to be"
+	line "from another"
+	cont "world."
+	
+	para "But that's ok."
+	
+	para "Sometimes, it's"
+	line "good to have fun."
+	
+	para "In another world,"
+	line "there is a trio"
+	cont "of #MON that hate"
+	cont "battles."
+	
+	para "SLAKOTH, SLAKING..."
+	line "They just want to"
+	cont "relax."
+	
+	para "Here, they're fierce!"
+	
+	para "ARCHEOPS..."
+	line "It tires easily."
+	cont "I mean it was"
+	cont "just ressurected!"
+	
+	para "And you want it to"
+	line "battle? Sheesh!"
+	cont "I can hardly get"
+	cont "outta bed!"
+	
+	para "ARCHEN? Shh, ignore"
+	line "that."
+	
+	para "But here, it seems"
+	line "to be fine."
+	
+	para "And REGIGIGAS..."
+	
+	para "Sometimes, I feel"
+	line "like that."
+	
+	para "Like smashing"
+	line "some heads!"
+	
+	para "Chaw haw haw!"
 	done
 
 _Lover1::
@@ -51,12 +96,19 @@ _BrunswickEndBattleText1::
 	prompt
 
 _BrunswickAfterBattleText1::
-	text "AERODACTYL is the"
+	text "ARCHEOPS is the"
 	line "progenitor of"
 	cont "birds."
 	
 	para "It's my prized"
 	line "#MON!"
+	
+	para "Huh? AERODACTYL?"
+	
+	para "Never heard of it."
+	
+	para "It doesn't sound"
+	line "like a bird #MON."
 	done
 
 _BrunswickBattleText2::

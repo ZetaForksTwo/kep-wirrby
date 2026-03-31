@@ -16,5 +16,5 @@ _MewtwoBattleText::
 	text_end
 
 _MewBattleText::
-	text "Myuu...@"
+	text "Reggie...@"
 	text_end

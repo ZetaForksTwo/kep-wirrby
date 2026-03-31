@@ -30,12 +30,12 @@ _Mansion4AfterBattleText2::
 
 _Mansion4Text7::
 	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
+	line "REGIGIGAS is way"
+	cont "too powerful."
 
 	para "It's no use..."
 	
-	para "I cannot control"
+	para "We need to seal"
 	line "it!"
 	
 	done

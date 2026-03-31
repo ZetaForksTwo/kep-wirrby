@@ -27,37 +27,38 @@ _OaksLabText39::
 
 _OaksLabCharmanderText::
 	text "So! You want the"
-	line "FIRE #MON,"
-	cont "CHARMANDER?"
+	line "lazy #MON,"
+	cont "SLAKOTH?"
 	done
 
 _OaksLabSquirtleText::
 	text "So! You want the"
-	line "WATER #MON,"
-	cont "SQUIRTLE?"
+	line "lazy #MON,"
+	cont "SLAKOTH?"
 	done
 
 _OaksLabBulbasaurText::
 	text "So! You want the"
-	line "GRASS #MON,"
-	cont "BULBASAUR?"
+	line "lazy #MON,"
+	cont "SLAKOTH?"
 	done
 
 _OaksLabPikachuText::
 	text "So! You want the"
-	line "mouse #MON,"
-	cont "PIKACHU?"
+	line "lazy #MON,"
+	cont "SLAKOTH?"
 	done
 
 _OaksLabEeveeText::
 	text "So! You want the"
-	line "evolution #-"
-	cont "MON, EEVEE?"
+	line "lazy #MON,"
+	cont "SLAKOTH?"
 	done
 
 _OaksLabMonEnergeticText::
 	text "This #MON is"
-	line "really energetic!"
+	line "actually quite"
+	cont "energetic!"
 	prompt
 
 _OaksLabReceivedMonText::

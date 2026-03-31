@@ -12,7 +12,7 @@ PikachuFanBetterText::
 
 SeelFanText::
 	text "I just love my"
-	line "SEEL!"
+	line "SNEASEL!"
 
 	para "It squeals when I"
 	line "hug it!"
@@ -31,7 +31,7 @@ FanClubPikachuText::
 	done
 
 FanClubSeelText::
-	text "SEEL: Kyuoo!"
+	text "SNEASEL: Nyaa..?"
 	done
 
 FanClubMeetChairText::
@@ -95,8 +95,8 @@ ExplainBikeVoucherText::
 	line "a BICYCLE!"
 
 	para "Don't worry, my"
-	line "FEAROW will FLY"
-	cont "me anywhere!"
+	line "HONCHKROW will"
+	cont "FLY me anywhere!"
 
 	para "So, I don't need a"
 	line "BICYCLE!"
