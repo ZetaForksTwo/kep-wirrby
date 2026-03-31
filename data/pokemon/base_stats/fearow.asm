@@ -1,4 +1,4 @@
-	db DEX_FEAROW ; pokedex id
+	db DEX_FEAROW ; pokedex id - Honchkrow
 
 	db 100, 125,  52,  71, 105
 	;   hp  atk  def  spd  spc
@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   PAY_DAY,      RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
-	     FLY
+	tmhm WHIRLWIND,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,         SKULL_BASH,   SKY_ATTACK,   REST,         TRI_ATTACK,   \
+	     SUBSTITUTE,   FLY, DREAM_EATER, THUNDER_WAVE
 	; end
 
 	db BANK(FearowPicFront)

@@ -1,4 +1,4 @@
-	db DEX_ARCANINE ; pokedex id
+	db DEX_ARCANINE ; pokedex id - Houndoom
 
 	db  75,  90,  50,  95, 110
 	;   hp  atk  def  spd  spc
@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         DRAGON_RAGE,  DIG,          TELEPORT,     MIMIC,        \
+	     RAGE,         COUNTER,  DIG,          DREAM_EATER,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE
+	     SKULL_BASH,   REST,         SUBSTITUTE, HORN_DRILL
 	; end
 
 	db BANK(ArcaninePicFront)

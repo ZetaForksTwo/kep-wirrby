@@ -1,4 +1,4 @@
-	db DEX_SPEAROW ; pokedex id
+	db DEX_SPEAROW ; pokedex id - Murkrow
 
 	db  60,  85,  42,  91,  85
 	;   hp  atk  def  spd  spc
@@ -14,9 +14,10 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
+	tmhm WHIRLWIND,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     SKULL_BASH,   SKY_ATTACK,   REST,         TRI_ATTACK,   SUBSTITUTE,   \
+	     FLY, DREAM_EATER, THUNDER_WAVE
 	; end
 
 	db BANK(SpearowPicFront)

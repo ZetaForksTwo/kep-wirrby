@@ -1,4 +1,4 @@
-	db DEX_VENOMOTH ; pokedex id
+	db DEX_VENOMOTH ; pokedex id - GOLISOPOD
 
 	db  75, 125, 140,  40,  60
 	;   hp  atk  def  spd  spc
@@ -14,10 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SWIFT,        REST,         PSYWAVE,      SUBSTITUTE,   FLASH
+	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         SURF,   \
+	     MIMIC,        DOUBLE_TEAM, WATER_GUN, BUBBLEBEAM, \
+	     BIDE,         REST,         SUBSTITUTE, RAZOR_WIND, ROCK_SLIDE, HYPER_BEAM, SWORDS_DANCE, SEISMIC_TOSS, COUNTER, SUBMISSION
 	; end
 
 	db BANK(VenomothPicFront)
