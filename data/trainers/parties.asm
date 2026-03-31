@@ -186,20 +186,20 @@ JrTrainerFData:
 	db 19, ORFRY, GOLDEEN, 0
 ; Route 6
 	db 20, CUBONE, 0 ; Giselle from School of Hard Knocks, Indigo League Ep9, featured in Yellow
-	db 16, PIDGEY, SPEAROW, FARFETCHD, 0
+	db 16, SEEL, PIDGEY, SPEAROW, FARFETCHD, 0 ; now feat. sneasel
 ; Unused
 	db 22, BULBASAUR, CHARMANDER, SQUIRTLE, 0
 ; Route 9
 	db 18, ODDISH, BELLSPROUT, ODDISH, BELLSPROUT, 0 ; This trainer, often called the "Wrapping Lass", is a notorious run-killer. Do not change, she's a benchmark.
-	db 23, MEOWTH, 0
+	db 23, MEOWTH, SEEL, 0
 ; Route 10
 	db 20, PIKACHU, CLEFAIRY, 0
 	db 21, PIDGEY, PIDGEOTTO, 0
 ; Rock Tunnel B1F
 	db 21, JIGGLYPUFF, PIDGEY, MEOWTH, 0
-	db 22, ODDISH, BULBASAUR, 0
+	db 22, ODDISH, BELLSPROUT, BULBASAUR, 0
 ; Celadon Gym
-	db 24, BULBASAUR, IVYSAUR, 0
+	db 24, BELLSPROUT, WEEPINBELL, 0
 ; Route 13
 	db 24, PIDGEY, JIGGLYPUFF, RATTATA, PIKACHU, MEOWTH, 0
 	db 30, POLIWAG, POLIWAG, 0
@@ -450,7 +450,7 @@ BeautyData:
 	db 31, POLIWAG, SEAKING, 0
 ; Route 15
 	db 29, PERSIAN, 0 ; it doesn't have slash until like L47 trust me it's fine
-	db 29, BULBASAUR, IVYSAUR, 0
+	db 29, BULBASAUR, MEOWTH, 0
 ; Silph Gauntlet 2F (Mt. Moon)
 	db 57, PERSIAN_A, VICTREEBEL, WIGGLYTUFF, SHARPOON, CLOYSTER, SYLVEON, 0
 ; Route 19
@@ -493,7 +493,7 @@ JugglerData:
 ; Victory Road 2F
 	db 45, ESPEON, UMBREON, HYPNO, MR_MIME, 0
 ; Fuchsia Gym
-	db 31, BEEDRILL, HAUNTER, VILEPLUME, 0
+	db 31, VENOMOTH, BEEDRILL, HAUNTER, VILEPLUME, 0
 	db 34, GOLBAT, TENTACRUEL, 0
 ; Victory Road 2F
 	db 48, ELECTRODE, HYPNO, MR_MIME, 0 ; buffed roster
@@ -687,7 +687,7 @@ CooltrainerMData:
 ; Equally varied, nothing to say
 CooltrainerFData:
 ; Celadon Gym
-	db 24, CACTORMUS, GLOOM, 0
+	db 24, BELLSPROUT, CACTORMUS, GLOOM, 0
 ; Victory Road 3F
 	db 49, BELLIGNAN, VICTREEBEL, 0
 	db 47, PARASECT, DEWGONG, CHANSEY, 0
@@ -700,12 +700,13 @@ CooltrainerFData:
 ;	db 45, NIDORINA, NIDOQUEEN, 0
 ;	db 43, PERSIAN, NINETALES, RAICHU, 0
 ; Brunswick Glade
-	db 60, BLASTOISE, VENUSAUR, CLEFABLE, ESPEON, 0 ; Leaf 
+	db 60, BLASTOISE, CLEFABLE, ESPEON, 0 ; Leaf 
 
 ; "Dignified" Pokemon associated with the privileged class.
+; Somehow, Houndour is fitting here.
 GentlemanData:
 ; SS Anne 1F Rooms
-	db 18, GROWLITHE, CARAPTHOR, 0
+	db 18, GROWLITHE, CARAPTHOR, DODUO, 0
 	db 19, NIDORINO, NIDORINA, 0
 ; SS Anne 2F Rooms/Vermilion Gym
 	db 23, PIKACHU, 0
@@ -762,11 +763,11 @@ StudentData:
 	db 4, PIDGEY, RATTATA, 0
 	db 6, CLEFAIRY, 0
 ; Silph Gauntlet 1F (Viridian Forest)
-	db 56, WIGGLYTUFF, PIDGEOT, TRAMPEL, CLEFABLE, KANGASKHAN, RAMOOSE, 0   ; all Normal types that Yujirou doesn't use
+	db 56, WIGGLYTUFF, PIDGEOT, TRAMPEL, CLEFABLE, VENUSAUR, RAMOOSE, 0   ; all Normal types that Yujirou doesn't use. now feat. slaking
 ; Celadon University
-	db 22, BULBASAUR, CHARMANDER, SQUIRTLE, 0
+	db 22, CHARMANDER, SQUIRTLE, 0
 ; Celadon University
-	db 40, VENUSAUR, CHARIZARD, TOTARTLE, 0
+	db 40, CHARIZARD, TOTARTLE, 0
 
 ; Mainly Water specialists, but can also use anything else that hits Fire super-effectively
 FirefighterData:
