@@ -199,7 +199,6 @@ SpecialTrainerMoves:
 
 	db RIVAL1, 15		; Cerulean City Rival w/Pikachu
 	db 1, 1, PECK
-	db 4, 1, THUNDERSHOCK
 	db 0
 	
 	db MISTY, 1		; Misty 0 badges
@@ -233,7 +232,6 @@ SpecialTrainerMoves:
 
 	db RIVAL2, 2		; SS Anne Rival w/Ivysaur
 	db 3, 1, THUNDER_WAVE
-	db 4, 1, TACKLE
 	db 0
 
 	db RIVAL2, 3		; SS Anne Rival w/Charmeleon
@@ -246,7 +244,6 @@ SpecialTrainerMoves:
 
 	db RIVAL2, 5		; SS Anne Rival w/Pikachu
 	db 1, 1, PECK
-	db 4, 2, THUNDERSHOCK
 	db 0
 	
 	db LT_SURGE, 1		; Surge 0 badges
@@ -340,7 +337,6 @@ SpecialTrainerMoves:
 	db 2, 4, BIDE
 	db 3, 1, BITE
 	db 4, 1, THUNDER_WAVE
-	db 5, 3, CUT
 	db 0
 
 	db RIVAL2, 8		; Pokemon Tower Rival w/Charmeleon
@@ -350,7 +346,6 @@ SpecialTrainerMoves:
 	db 3, 3, BUBBLEBEAM
 	db 3, 4, BIDE
 	db 4, 1, THUNDER_WAVE
-	db 5, 3, CUT
 	db 0
 	
 	db RIVAL2, 9		; Pokemon Tower Rival w/Eevee
@@ -358,7 +353,6 @@ SpecialTrainerMoves:
 	db 3, 3, EMBER
 	db 4, 1, CUT
 	db 4, 4, DIG
-	db 5, 3, BODY_SLAM
 	db 0
 
 	db RIVAL2, 10		; Pokemon Tower Rival w/Raichu
@@ -366,8 +360,6 @@ SpecialTrainerMoves:
 	db 2, 3, EMBER
 	db 4, 1, CUT
 	db 4, 4, DIG
-	db 5, 2, DOUBLE_TEAM
-	db 5, 4, QUICK_ATTACK
 	db 0
 	
 	db JACK, 1
@@ -475,8 +467,6 @@ SpecialTrainerMoves:
 	db 0
 	
 	db KOGA, 4		; Koga 3 badges
-	db 1, 1, CONFUSION
-	db 1, 3, MEGA_DRAIN
 	db 2, 2, TOXIC
 	db 2, 4, ACID
 	db 3, 1, BODY_SLAM
@@ -488,8 +478,6 @@ SpecialTrainerMoves:
 	db 0
 	
 	db KOGA, 5		; Koga 4 badges
-	db 1, 1, TOXIC
-	db 1, 3, MEGA_DRAIN
 	db 2, 1, TOXIC
 	db 2, 2, SURF
 	db 2, 3, WRAP
@@ -502,8 +490,6 @@ SpecialTrainerMoves:
 	db 0
 	
 	db KOGA, 6		; Koga 5 badges
-	db 1, 1, TOXIC
-	db 1, 3, MEGA_DRAIN
 	db 2, 1, TOXIC
 	db 2, 2, SURF
 	db 2, 3, WRAP
@@ -607,8 +593,6 @@ SpecialTrainerMoves:
 	db 4, 2, BARRAGE
 	db 4, 4, CONFUSION
 	db 5, 2, THUNDER_WAVE
-	db 6, 2, MEGA_DRAIN
-	db 6, 3, SURF
 	db 0
 
 	db RIVAL2, 12		; Silph Co. Rival w/Venusaur
@@ -617,7 +601,6 @@ SpecialTrainerMoves:
 	db 3, 1, SURF
 	db 4, 1, DIG
 	db 5, 2, THUNDER_WAVE
-	db 6, 3, LEECH_SEED
 	db 0
 
 	db RIVAL2, 13		; Silph Co. Rival w/Charizard
@@ -627,8 +610,6 @@ SpecialTrainerMoves:
 	db 3, 4, CONFUSION
 	db 4, 1, SURF
 	db 5, 2, THUNDER_WAVE
-	db 6, 3, SEISMIC_TOSS
-	db 6, 4, FLY
 	db 0
 	
 	db RIVAL2, 14		; Silph Co. Rival w/Umbreon
@@ -640,7 +621,6 @@ SpecialTrainerMoves:
 	db 4, 1, CONFUSE_RAY
 	db 4, 4, FLAMETHROWER
 	db 5, 2, THUNDER_WAVE
-	db 6, 2, BODY_SLAM
 	db 0
 
 	db RIVAL2, 15		; Silph Co. Rival w/Raichu
@@ -651,9 +631,6 @@ SpecialTrainerMoves:
 	db 3, 1, CONFUSE_RAY
 	db 3, 4, FLAMETHROWER
 	db 5, 2, THUNDER_WAVE
-	db 6, 1, THUNDERBOLT
-	db 6, 2, BODY_SLAM
-	db 6, 4, DOUBLE_TEAM
 	db 0
 	
 	db JESSIE_JAMES, 4	; Silph Co. J&J
@@ -738,7 +715,6 @@ SpecialTrainerMoves:
 	db BLAINE, 3		; Blaine 2 badges
 	db 2, 3, EMBER
 	db 3, 2, DIG
-	db 4, 1, CUT
 	db 5, 2, LEER
 	db 5, 3, SMOG
 	db 5, 4, FIRE_PUNCH
@@ -749,7 +725,6 @@ SpecialTrainerMoves:
 	db 2, 2, EMBER
 	db 3, 1, BITE
 	db 3, 2, DIG
-	db 4, 2, EMBER
 	db 5, 2, LEER
 	db 5, 3, SMOG
 	db 5, 4, FIRE_PUNCH
@@ -759,8 +734,6 @@ SpecialTrainerMoves:
 	db 2, 1, FLAMETHROWER
 	db 2, 2, DOUBLE_TEAM
 	db 2, 4, CONFUSE_RAY
-	db 3, 1, FIRE_BLAST
-	db 3, 2, SAND_ATTACK
 	db 4, 1, FIRE_BLAST
 	db 4, 2, DIG
 	db 5, 1, FIRE_BLAST
@@ -773,8 +746,6 @@ SpecialTrainerMoves:
 	db 2, 1, FLAMETHROWER
 	db 2, 2, DOUBLE_TEAM
 	db 2, 4, CONFUSE_RAY
-	db 3, 1, FIRE_BLAST
-	db 3, 2, SAND_ATTACK
 	db 4, 1, FIRE_BLAST
 	db 4, 2, DIG
 	db 4, 3, AGILITY
@@ -788,7 +759,6 @@ SpecialTrainerMoves:
 	db 2, 1, FLAMETHROWER
 	db 2, 2, FIRE_SPIN
 	db 2, 4, CONFUSE_RAY
-	db 3, 4, FIRE_BLAST
 	db 4, 1, FIRE_BLAST
 	db 4, 2, DIG
 	db 4, 3, AGILITY
@@ -827,10 +797,6 @@ SpecialTrainerMoves:
 	db 4, 2, SLEEP_POWDER
 	db 4, 4, SOLARBEAM
 	db 5, 1, THUNDER_WAVE
-	db 6, 1, BODY_SLAM
-	db 6, 2, MEGA_DRAIN
-	db 6, 3, SURF
-	db 6, 4, ICE_BEAM
 	db 0
 
 	db RIVAL2, 17		; Route 22 Rival w/Venusaur
@@ -844,7 +810,6 @@ SpecialTrainerMoves:
 	db 4, 3, AGILITY
 	db 4, 4, DOUBLE_EDGE
 	db 5, 1, THUNDER_WAVE
-	db 6, 3, LEECH_SEED
 	db 0
 
 	db RIVAL2, 18		; Route 22 Rival w/Charizard
@@ -857,8 +822,6 @@ SpecialTrainerMoves:
 	db 4, 2, ICE_BEAM
 	db 4, 3, SURF
 	db 5, 1, THUNDER_WAVE
-	db 6, 1, FLY
-	db 6, 3, FIRE_SPIN
 	db 0
 	
 	db RIVAL2, 19		; Route 22 Rival w/Umbreon
@@ -873,8 +836,6 @@ SpecialTrainerMoves:
 	db 4, 2, REFLECT
 	db 4, 4, FIRE_BLAST
 	db 5, 1, THUNDER_WAVE
-	db 6, 1, BODY_SLAM
-	db 6, 3, QUICK_ATTACK
 	db 0
 
 	db RIVAL2, 20		; Route 22 Rival w/Gorochu
@@ -889,9 +850,6 @@ SpecialTrainerMoves:
 	db 4, 1, SELFDESTRUCT
 	db 4, 4, ICE_BEAM
 	db 5, 1, THUNDER_WAVE
-	db 6, 1, THUNDERBOLT
-	db 6, 2, BODY_SLAM
-	db 6, 4, SURF
 	db 0
 
 	db LORELEI, 1
@@ -933,8 +891,6 @@ SpecialTrainerMoves:
 	db 2, 1, MEGA_DRAIN
 	db 2, 3, CONFUSE_RAY
 	db 2, 4, FLY
-	db 3, 1, THUNDERBOLT
-	db 3, 2, EXPLOSION
 	db 4, 3, WRAP
 	db 4, 4, EARTHQUAKE
 	db 5, 1, REST
@@ -975,9 +931,6 @@ SpecialTrainerMoves:
 	db 5, 1, PSYCHIC_M
 	db 5, 2, SLEEP_POWDER
 	db 5, 4, SOLARBEAM
-	db 6, 1, BLIZZARD
-	db 6, 3, BODY_SLAM
-	db 6, 4, PETAL_DANCE
 	db 0
 
 	db RIVAL3, 2		; Champion Rival w/Venusaur
@@ -992,9 +945,6 @@ SpecialTrainerMoves:
 	db 5, 2, DIG
 	db 5, 3, AGILITY
 	db 5, 4, DOUBLE_EDGE
-	db 6, 1, SOLARBEAM
-	db 6, 3, BODY_SLAM
-	db 6, 4, SLEEP_POWDER
 	db 0
 
 	db RIVAL3, 3		; Champion Rival w/Charizard
@@ -1008,9 +958,6 @@ SpecialTrainerMoves:
 	db 4, 4, SOLARBEAM
 	db 5, 1, BLIZZARD
 	db 5, 2, THUNDERBOLT
-	db 6, 1, FLY
-	db 6, 3, FIRE_BLAST
-	db 6, 4, EARTHQUAKE
 	db 0
 	
 	db RIVAL3, 4		; Champion Rival w/Umbreon
@@ -1026,8 +973,6 @@ SpecialTrainerMoves:
 	db 5, 1, CONFUSE_RAY
 	db 5, 2, REFLECT
 	db 5, 4, FIRE_BLAST
-	db 6, 1, BODY_SLAM
-	db 6, 3, QUICK_ATTACK
 	db 0
 
 	db RIVAL3, 5		; Champion Rival w/Gorochu
@@ -1044,10 +989,6 @@ SpecialTrainerMoves:
 	db 5, 1, EXPLOSION
 	db 5, 3, SURF
 	db 5, 4, BLIZZARD
-	db 6, 1, THUNDERBOLT
-	db 6, 2, BODY_SLAM
-	db 6, 3, THUNDER_WAVE
-	db 6, 4, SURF
 	db 0
 	
 	db PROF_OAK, 1	; Totartle Team
@@ -1067,9 +1008,6 @@ SpecialTrainerMoves:
 	db 5, 1, BLIZZARD
 	db 5, 3, THUNDERBOLT
 	db 5, 4, THRASH
-	db 6, 1, BLIZZARD
-	db 6, 3, BODY_SLAM
-	db 6, 4, SOLARBEAM
 	db 0
 	
 	db PROF_OAK, 2	; Venusaur Team
@@ -1089,10 +1027,6 @@ SpecialTrainerMoves:
 	db 5, 1, BLIZZARD
 	db 5, 3, THUNDERBOLT
 	db 5, 4, THRASH
-	db 6, 1, SWORDS_DANCE
-	db 6, 2, RAZOR_LEAF
-	db 6, 3, HYPER_BEAM
-	db 6, 4, SLEEP_POWDER
 	db 0
 	
 	db PROF_OAK, 3	; Charizard Team
@@ -1112,9 +1046,6 @@ SpecialTrainerMoves:
 	db 5, 1, BLIZZARD
 	db 5, 3, THUNDERBOLT
 	db 5, 4, THRASH
-	db 6, 1, SWORDS_DANCE
-	db 6, 3, FIRE_BLAST
-	db 6, 4, EARTHQUAKE
 	db 0
 	
 	db PROF_OAK, 4	; Pika/Vee Team 1
@@ -1126,16 +1057,6 @@ SpecialTrainerMoves:
 	db 3, 1, BLIZZARD
 	db 3, 3, THUNDERBOLT
 	db 3, 4, THRASH
-	db 4, 1, SWORDS_DANCE
-	db 4, 2, RAZOR_LEAF
-	db 4, 3, HYPER_BEAM
-	db 4, 4, SLEEP_POWDER
-	db 5, 1, SWORDS_DANCE
-	db 5, 3, FIRE_BLAST
-	db 5, 4, EARTHQUAKE
-	db 6, 1, BLIZZARD
-	db 6, 3, BODY_SLAM
-	db 6, 4, SOLARBEAM
 	db 0
 	
 	db PROF_OAK, 5	; Pika/Vee Team 2
@@ -1147,16 +1068,6 @@ SpecialTrainerMoves:
 	db 3, 1, BLIZZARD
 	db 3, 3, THUNDERBOLT
 	db 3, 4, THRASH
-	db 4, 1, SWORDS_DANCE
-	db 4, 2, RAZOR_LEAF
-	db 4, 3, HYPER_BEAM
-	db 4, 4, SLEEP_POWDER
-	db 5, 1, SWORDS_DANCE
-	db 5, 3, FIRE_BLAST
-	db 5, 4, EARTHQUAKE
-	db 6, 1, BLIZZARD
-	db 6, 3, BODY_SLAM
-	db 6, 4, SOLARBEAM
 	db 0
 
 	db COOLTRAINER_M, 11	; GAME FREAK Morimoto
@@ -1295,16 +1206,12 @@ SpecialTrainerMoves:
 	db 4, 1, HYPER_BEAM
 	db 4, 3, BODY_SLAM
 	db 4, 4, SWORDS_DANCE
-	db 5, 1, SOLARBEAM
-	db 5, 3, BODY_SLAM
-	db 5, 4, SLEEP_POWDER
 	db 6, 2, MEGA_DRAIN
 	db 6, 3, ROCK_SLIDE
 	db 6, 4, AMNESIA
 	db 0
 	
 	db KOGA, 9		; Koga postgame
-	db 1, 2, MEGA_DRAIN
 	db 2, 1, RAZOR_LEAF
 	db 2, 2, ACID
 	db 2, 4, WRAP
@@ -1507,8 +1414,6 @@ SpecialTrainerMoves:
 	db 5, 1, PSYCHIC_M
 	db 5, 2, SLEEP_POWDER
 	db 5, 4, SOLARBEAM
-	db 6, 1, BODY_SLAM
-	db 6, 2, HYDRO_PUMP
 	db 0
 
 	db RIVAL3, 7	; Champion Rival rematch w/Venusaur
@@ -1524,9 +1429,6 @@ SpecialTrainerMoves:
 	db 5, 2, DIG
 	db 5, 3, AGILITY
 	db 5, 4, BODY_SLAM
-	db 6, 2, RAZOR_LEAF
-	db 6, 3, BODY_SLAM
-	db 6, 4, SLEEP_POWDER
 	db 0
 
 	db RIVAL3, 8	; Champion Rival rematch w/Charizard
@@ -1541,9 +1443,6 @@ SpecialTrainerMoves:
 	db 4, 4, SOLARBEAM
 	db 5, 1, BLIZZARD
 	db 5, 2, THUNDERBOLT
-	db 6, 1, FLY
-	db 6, 2, SLASH
-	db 6, 4, EARTHQUAKE
 	db 0
 	
 	db RIVAL3, 9	; Champion Rival rematch w/Umbreon
@@ -1562,8 +1461,6 @@ SpecialTrainerMoves:
 	db 5, 2, REFLECT
 	db 5, 3, BODY_SLAM
 	db 5, 4, FIRE_BLAST
-	db 6, 1, BODY_SLAM
-	db 6, 3, GROWTH
 	db 0
 
 	db RIVAL3, 10	; Champion Rival rematch w/Gorochu
@@ -1583,10 +1480,6 @@ SpecialTrainerMoves:
 	db 5, 1, EXPLOSION
 	db 5, 3, SURF
 	db 5, 4, BLIZZARD
-	db 6, 1, THUNDERBOLT
-	db 6, 2, BODY_SLAM
-	db 6, 3, THUNDER_WAVE
-	db 6, 4, SURF
 	db 0
 	
 	db -1 ; end
