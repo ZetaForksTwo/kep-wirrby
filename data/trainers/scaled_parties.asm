@@ -43,18 +43,18 @@ ErikaData:
 	db $FF, 41, VICTREEBEL, 40, PARASECT, 40, CACTORMUS, 41, BELLOSSOM, 43, TANGROWTH, 0                ; 5
 	db $FF, 45, VICTREEBEL, 44, PARASECT, 44, CACTORMUS, 45, BELLOSSOM, 47, TANGROWTH, 0                ; 6
 	db $FF, 57, VICTREEBEL, 56, PARASECT, 56, CACTORMUS, 57, BELLOSSOM, 57, LEAFEON, 60, TANGROWTH, 0   ; 7 (unused)
-	db $FF, 67, BELLOSSOM, 67, TOEDSCRUEL, 66, ELECTRODE_H, 66, LEAFEON, 67, VENUSAUR, 70, TANGROWTH, 0 ; 8 (postgame)
+	db $FF, 67, BELLOSSOM, 67, TOEDSCRUEL, 66, ELECTRODE_H, 66, LEAFEON, 67, CACTORMUS, 70, TANGROWTH, 0 ; 8 (postgame)
 
 KogaData:
-	db $FF, 11, VENONAT, 12, ZUBAT, 14, KOFFING, 0                                           ; 0 badges (unused)
-	db $FF, 19, VENONAT, 18, GRIMER, 19, KOFFING, 21, GOLBAT, 0                              ; 1
-	db $FF, 22, VENONAT, 21, TENTACOOL, 21, GRIMER, 23, KOFFING, 25, GOLBAT, 0               ; 2
-	db $FF, 29, VENOMOTH, 28, TENTACOOL, 28, GRIMER, 29, KOFFING, 31, GOLBAT, 0              ; 3
-	db $FF, 38, VENOMOTH, 37, TENTACRUEL, 37, MUK, 38, WEEZING, 40, CROBAT, 0                ; 4
-	db $FF, 41, VENOMOTH, 40, TENTACRUEL, 40, MUK, 41, WEEZING, 43, CROBAT, 0                ; 5
-	db $FF, 45, VENOMOTH, 44, TENTACRUEL, 44, MUK, 45, WEEZING, 47, CROBAT, 0                ; 6
-	db $FF, 57, VENOMOTH, 56, BELLIGNAN, 56, TENTACRUEL, 57, MUK, 57, WEEZING, 60, CROBAT, 0 ; 7 (unused)
-	db $FF, 67, VENOMOTH, 66, BELLIGNAN, 66, SLOWBRO_G, 67, MUK, 67, WEEZING, 70, CROBAT, 0  ; 8 (postgame)
+	db $FF, 11, BEEDRILL, 12, ZUBAT, 14, KOFFING, 0                                           ; 0 badges (unused)
+	db $FF, 19, BEEDRILL, 18, GRIMER, 19, KOFFING, 21, GOLBAT, 0                              ; 1
+	db $FF, 22, BEEDRILL, 21, TENTACOOL, 21, GRIMER, 23, KOFFING, 25, GOLBAT, 0               ; 2
+	db $FF, 29, BEEDRILL, 28, TENTACOOL, 28, GRIMER, 29, KOFFING, 31, GOLBAT, 0              ; 3
+	db $FF, 38, BEEDRILL, 37, TENTACRUEL, 37, MUK, 38, WEEZING, 40, CROBAT, 0                ; 4
+	db $FF, 41, BEEDRILL, 40, TENTACRUEL, 40, MUK, 41, WEEZING, 43, CROBAT, 0                ; 5
+	db $FF, 45, BEEDRILL, 44, TENTACRUEL, 44, MUK, 45, WEEZING, 47, CROBAT, 0                ; 6
+	db $FF, 57, BEEDRILL, 56, BELLIGNAN, 56, TENTACRUEL, 57, MUK, 57, WEEZING, 60, CROBAT, 0 ; 7 (unused)
+	db $FF, 67, BEEDRILL, 66, BELLIGNAN, 66, SLOWBRO_G, 67, MUK, 67, WEEZING, 70, CROBAT, 0  ; 8 (postgame)
 
 SabrinaData:
 	db $FF, 11, SLOWPOKE, 12, DROWZEE, 14, KADABRA, 0                                            ; 0 badges (unused)
@@ -70,12 +70,12 @@ SabrinaData:
 BlaineData:
 	db $FF, 11, VULPIX, 12, GROWLITHE, 14, PONYTA, 0                                                 ; 0 badges (unused)
 	db $FF, 19, PONYTA, 18, VULPIX, 19, GROWLITHE, 21, MAGMAR, 0                                     ; 1 (unused)
-	db $FF, 22, PONYTA, 21, VULPIX, 21, GROWLITHE, 23, CHARMELEON, 25, MAGMAR, 0                     ; 2
-	db $FF, 29, PONYTA, 28, VULPIX, 28, GROWLITHE, 29, CHARMELEON, 31, MAGMAR, 0                     ; 3
-	db $FF, 38, PONYTA, 37, NINETALES, 37, FLAREON, 38, ARCANINE, 40, MAGMORTAR, 0                   ; 4
-	db $FF, 41, RAPIDASH, 40, NINETALES, 40, FLAREON, 41, ARCANINE, 43, MAGMORTAR, 0                 ; 5
-	db $FF, 45, RAPIDASH, 44, NINETALES, 44, FLAREON, 45, ARCANINE, 47, MAGMORTAR, 0                 ; 6
-	db $FF, 57, RAPIDASH, 56, NINETALES, 56, FLAREON, 57, CHARIZARD, 57, ARCANINE, 60, MAGMORTAR, 0  ; 7 (unused)
+	db $FF, 22, PONYTA, 21, VULPIX, 21, GROWLITHE, 23, DODUO, 25, MAGMAR, 0                     ; 2
+	db $FF, 29, PONYTA, 28, VULPIX, 28, GROWLITHE, 29, DODUO, 31, MAGMAR, 0                     ; 3
+	db $FF, 38, PONYTA, 37, NINETALES, 37, DODRIO, 38, ARCANINE, 40, MAGMORTAR, 0                   ; 4
+	db $FF, 41, RAPIDASH, 40, NINETALES, 40, DODRIO, 41, ARCANINE, 43, MAGMORTAR, 0                 ; 5
+	db $FF, 45, RAPIDASH, 44, NINETALES, 44, DODRIO, 45, ARCANINE, 47, MAGMORTAR, 0                 ; 6
+	db $FF, 57, RAPIDASH, 56, NINETALES, 56, DODRIO, 57, CHARIZARD, 57, ARCANINE, 60, MAGMORTAR, 0  ; 7 (unused)
 	db $FF, 67, RAPIDASH, 67, ARCANINE, 66, TAUROS_PB, 66, FLAREON, 67, CHARIZARD, 70, MAGMORTAR, 0  ; 8 (postgame)
 
 GiovanniData:
@@ -104,7 +104,7 @@ BrunoData:
 	db $FF, 75, JABETTA, 76, STEELIX, 75, SIRFETCHD, 76, GORILLAIMO, 76, HITMONTOP, 78, MACHAMP, 0
 
 AgathaData:
-	db $FF, 55, ANNIHILAPE, 56, CROBAT, 55, GENGAR, 57, ARBOK, 57, UMBREON, 59, GENGAR, 0		; Agatha has double Gengars in every single battle in the main-series, it's fine here...
+	db $FF, 55, ANNIHILAPE, 56, CROBAT, 55, FEAROW, 57, ARBOK, 57, UMBREON, 59, GENGAR, 0
 ; post-game rematch team (currently unused)
 	db $FF, 77, ANNIHILAPE, 78, CROBAT, 77, MAROWAK_A, 78, ARBOK, 78, UMBREON, 80, GENGAR, 0
 
