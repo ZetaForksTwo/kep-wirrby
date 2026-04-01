@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         COUNTER,  DIG,          DREAM_EATER,     MIMIC,        \
+	     RAGE,         COUNTER,      DIG,          DREAM_EATER,  MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE, HORN_DRILL
+	     SKULL_BASH,   REST,         SUBSTITUTE, HORN_DRILL, SOLARBEAM
 	; end
 
 	db BANK(ArcaninePicFront)
