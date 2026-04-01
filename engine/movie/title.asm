@@ -137,12 +137,12 @@ DisplayTitleScreen:
 	ldh a, [hRandomSub]
 	cp 129
 	jr c, .notscreamtail
-	ld a, SCREAM_TAIL
+	ld a, MEWTWO
 	ld [wTitleMonSpecies], a
 	call LoadTitleMonSprite
 	jr .skip
 .notscreamtail
-	ld a, SANDY_SHOCKS
+	ld a, VENUSAUR
 	ld [wTitleMonSpecies], a
 	call LoadTitleMonSprite
 .skip
