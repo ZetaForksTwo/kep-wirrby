@@ -6,7 +6,7 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokedex_constants.asm
 	mon_cry CRY_RATTATA,     176,  383 ; BULBASAUR
-	mon_cry CRY_RATTATA,     206,  768 ; IVYSAUR
+	mon_cry CRY_RATTATA,     192,  768 ; IVYSAUR
 	mon_cry CRY_RATTATA,    -101,  512 ; VENUSAUR
 	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON
