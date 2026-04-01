@@ -1,8 +1,8 @@
 MonPartyData:
 	nybble_array MonPartyData
-	nybble ICON_GRASS     ; Bulbasaur
-	nybble ICON_GRASS     ; Ivysaur
-	nybble ICON_GRASS     ; Venusaur
+	nybble ICON_CAT     ; Bulbasaur
+	nybble ICON_MON     ; Ivysaur
+	nybble ICON_MON     ; Venusaur
 	nybble ICON_MON       ; Charmander
 	nybble ICON_MON       ; Charmeleon
 	nybble ICON_MON       ; Charizard
@@ -162,8 +162,8 @@ MonPartyData:
 	nybble ICON_MON       ; Marowak-A
 	nybble ICON_MON	      ; Guardia
 	nybble ICON_BALL      ; Balumba
-	nybble ICON_SMALL_BIRD ; Doduo
-	nybble ICON_SMALL_BIRD ; Dodrio
+	nybble ICON_BUG ; Doduo
+	nybble ICON_HELIX ; Dodrio
 	nybble ICON_MON       ; Grimer
 	nybble ICON_MON       ; Muk
 	nybble ICON_MON       ; Muk-A
@@ -179,8 +179,8 @@ MonPartyData:
 	nybble ICON_WATER     ; Horsea
 	nybble ICON_WATER     ; Seadra
 	nybble ICON_WATER     ; Kingdra
-	nybble ICON_WATER     ; Seel
-	nybble ICON_WATER     ; Dewgong
+	nybble ICON_MON     ; Seel
+	nybble ICON_MON     ; Dewgong
 	nybble ICON_HELIX     ; Shellder
 	nybble ICON_HELIX     ; Cloyster
 	nybble ICON_HELIX     ; Disturban
