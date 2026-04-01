@@ -5,9 +5,9 @@ ENDM
 
 PokemonCries::
 ; entries correspond to constants/pokedex_constants.asm
-	mon_cry CRY_BULBASAUR,   128,  129 ; BULBASAUR
-	mon_cry CRY_BULBASAUR,    32,  256 ; IVYSAUR
-	mon_cry CRY_BULBASAUR,     0,  320 ; VENUSAUR
+	mon_cry CRY_RATTATA,     176,  383 ; BULBASAUR
+	mon_cry CRY_RATTATA,     206,  768 ; IVYSAUR
+	mon_cry CRY_RATTATA,    -101,  512 ; VENUSAUR
 	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON
 	mon_cry CRY_CHARMANDER,    0,  256 ; CHARIZARD
@@ -50,8 +50,8 @@ PokemonCries::
 	mon_cry CRY_KANGASKHAN,  163,  129 ; KOTORA
 	mon_cry CRY_KANGASKHAN,   45,  129 ; GAOTORA
 	mon_cry CRY_RHYDON,       32,  144 ; GOROTORA
-	mon_cry CRY_SPEAROW,       0,  256 ; SPEAROW
-	mon_cry CRY_FEAROW,       64,  288 ; FEAROW
+	mon_cry CRY_MARILL,      -31,  384 ; MURKROW
+	mon_cry CRY_SQUIRTLE,   -105,  384 ; HONCHKROW
 	mon_cry CRY_NIDORAN_F,     0,  256 ; NIDORAN_F
 	mon_cry CRY_NIDORAN_F,    44,  352 ; NIDORINA
 	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
@@ -98,8 +98,8 @@ PokemonCries::
 	mon_cry CRY_CATERPIE,    137,  142 ; ORFRY
 	mon_cry CRY_CATERPIE,    128,  192 ; GOLDEEN
 	mon_cry CRY_CATERPIE,     16,  383 ; SEAKING
-	mon_cry CRY_VENONAT,      68,  192 ; VENONAT
-	mon_cry CRY_VENONAT,      41,  256 ; VENOMOTH
+	mon_cry CRY_VENONAT,     -74,  256 ; WIMPOD
+	mon_cry CRY_SQUIRTLE,   -105,  384 ; GOLISOPOD, yes it's the same as honchkrow's but it's similar enough and I'm tired
 	mon_cry CRY_PSYDUCK,      32,  224 ; PSYDUCK
 	mon_cry CRY_PSYDUCK,     147,  208 ; WEIRDUCK
 	mon_cry CRY_PSYDUCK,     255,  192 ; GOLDUCK
@@ -114,8 +114,8 @@ PokemonCries::
 	mon_cry CRY_RATTATA,      50,  383 ; JABETTA
 	mon_cry CRY_SEEL,          0,  256 ; LICKITUNG
 	mon_cry CRY_SEEL,        169,  639 ; LICKILICKY
-	mon_cry CRY_GROWLITHE,    32,  192 ; GROWLITHE
-	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
+	mon_cry CRY_CYNDAQUIL,    57,  320 ; HOUNDOUR
+	mon_cry CRY_TOTODILE,   -266,  256 ; HOUNDOOM
 	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE_H
 	mon_cry CRY_SPEAROW,     221,  129 ; FARFETCHD
 	mon_cry CRY_FEAROW,       25,  383 ; LUXWAN
@@ -167,8 +167,8 @@ PokemonCries::
 	mon_cry CRY_ODDISH,       79,  224 ; MAROWAK_A
 	mon_cry CRY_ODDISH,        0,  383 ; GUARDIA
 	mon_cry CRY_PIDGEY,        0,  256 ; BALUMBA
-	mon_cry CRY_DIGLETT,     187,  129 ; DODUO
-	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO
+	mon_cry CRY_SLUGMA,     -472,  320 ; SLUGMA
+	mon_cry CRY_MAGCARGO,   -525,  448 ; MAGCARGO
 	mon_cry CRY_GRIMER,        0,  256 ; GRIMER
 	mon_cry CRY_MUK,         239,  383 ; MUK
 	mon_cry CRY_MUK,         239,  383 ; MUK_A
@@ -184,8 +184,8 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
 	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA
 	mon_cry CRY_SLUGMA,      763,  256 ; KINGDRA
-	mon_cry CRY_SEEL,        136,  320 ; SEEL
-	mon_cry CRY_SEEL,         35,  383 ; DEWGONG
+	mon_cry CRY_WOOPER,       83,  175 ; SNEASEL
+	mon_cry CRY_WOOPER,       41,  383 ; WEAVILE
 	mon_cry CRY_FEAROW,        0,  256 ; SHELLDER
 	mon_cry CRY_FEAROW,      111,  352 ; CLOYSTER
 	mon_cry CRY_TOTODILE,    512,  320 ; DISTURBAN
@@ -233,7 +233,7 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   255,  192 ; OMASTAR
 	mon_cry CRY_CATERPIE,    187,  192 ; KABUTO
 	mon_cry CRY_FEAROW,      238,  129 ; KABUTOPS
-	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
+	mon_cry CRY_TEDDIURSA,  -111,  192 ; AERODACTYL
 	mon_cry CRY_BULBASAUR,    64,  256 ; DECILLA
 	mon_cry CRY_BULBASAUR,     0,  256 ; GAWARHED
 	mon_cry CRY_BLASTOISE,     0,  128 ; OMEGADGE
@@ -252,7 +252,7 @@ PokemonCries::
 	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS_G
 	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES
 	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES_G
-	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
+	mon_cry CRY_TYPHLOSION, -401,  383 ; MEWTWO
 	mon_cry CRY_PARAS,       238,  383 ; MEW
 	mon_cry CRY_NATU,        -18,   89 ; MELTAN
 	mon_cry CRY_AMPHAROS,    158,  592 ; MELMETAL
